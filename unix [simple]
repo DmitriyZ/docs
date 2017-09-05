@@ -1,3 +1,7 @@
 Copy folder with files to another folder in Unix/Linux
 
   cp -R source destination/
+
+Change owner/group recursively
+
+  chown -R owner:group * .[^.]*
