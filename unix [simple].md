@@ -1,14 +1,14 @@
-Copy folder with files to another folder in Unix/Linux
+### Copy folder with files to another folder in Unix/Linux
 
-  cp -R source destination/
+    cp -R source destination/
 
-Change owner/group recursively
+### Change owner/group recursively
 
-  chown -R owner:group * .[^.]*
+    chown -R owner:group * .[^.]*
   
-Find files that are bigger/smaller than x bytes
+### Find files that are bigger/smaller than x bytes
 
-  find . -type f -size +4096b
+    find . -type f -size +4096b
   
     Notice the + and - difference after the size switch.
 
